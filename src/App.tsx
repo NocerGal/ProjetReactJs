@@ -1,11 +1,8 @@
-import React, {FunctionComponent} from 'react';
-  
+import React, { FunctionComponent } from "react";
+import PokemonList from "./pages/pokemon-list";
+
 const App: FunctionComponent = () => {
- const name: String = 'React';
-    
- return (
-  <h1>Hello, {name} !</h1>
- )
-}
-  
+  return <PokemonList />;
+};
+
 export default App;
